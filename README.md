@@ -33,11 +33,11 @@ A basic Spring Boot CRUD application for managing courses, using H2 database and
    mvnw.cmd spring-boot:run
    ```
 
-3. Visit [http://localhost:8080/courses](http://localhost:8080/courses) in your browser.
+3. Visit [http://localhost:9090/courses](http://localhost:9090/courses) in your browser.
 
 ## H2 Console
 
-- Access the H2 database console at [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+- Access the H2 database console at [http://localhost:9090/h2-console](http://localhost:9090/h2-console)
 - JDBC URL: `jdbc:h2:mem:testdb`
 - User: `sa`
 - Password: _(leave blank)_
